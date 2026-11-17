@@ -1,0 +1,14 @@
+{
+  "name": "fitopia",
+  "version": "1.0.0",
+  "description": "FITOPÍA: tienda fitness y Planes Fit. Prototipo funcional del SRS IEEE-830 v2.0 (Ingeniería del Software 2026-2).",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js --abrir",
+    "red": "node server.js --abrir --red",
+    "reiniciar": "node server.js --reiniciar --abrir"
+  },
+  "engines": { "node": ">=16" },
+  "license": "UNLICENSED"
+}
